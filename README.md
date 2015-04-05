@@ -17,10 +17,7 @@ The "design" folder contains design files of the pre-amp board for Eagle. The ci
 datasheet, I just designed the PCB for it. Ready-made preamp boards are available from here:
 http://www.limpkin.fr/index.php?post/2013/08/09/Making-the-electronics-for-a-%247-USD-doppler-motion-sensor
 
-The "HB100_LCD_output" folder contains the Arduino source code. The code is just the example from FreqMeasure combined
-with the built-in Arduino LiquidCrystal library. In the loop, we take 30 frequency measurements, then get the average
-value and display it on the LCD. This was tested on an Arduino Nano and should work
-as well on Uno and Pro Mini. For other boards, see the FreqMeasure documentation below.
+The "HB100_LCD_output" folder contains the Arduino source code. The code is just the slightly modified LCD example from FreqMeasure. In the loop, we take 30 frequency measurements, then get the average value and display it on the LCD. This was tested on an Arduino Nano and should work as well on Uno and Pro Mini. For other boards, see the FreqMeasure documentation below.
 
 Additional info:
 * http://jpnelson.com/post/37623468093/microwave-motion-sensors-for-fun-and-profit-hb100
